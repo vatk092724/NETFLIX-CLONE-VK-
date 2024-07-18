@@ -1,0 +1,113 @@
+
+
+
+.container{
+    display:relative ;
+    
+    
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+  background-image:url(background.jpg) ;
+  height:100vh ;
+
+
+  
+  
+  
+}
+img {
+width: 200px;
+height: 50px;
+padding: 24px 48px;
+margin: 0px 157px;
+display:flex;
+}
+.language {
+
+padding: 6px 36px;
+margin: 8em;
+background-color: black;
+color: white;
+border: 1px white;
+display:flex;
+float: right;
+;
+}
+button {
+background-color:#FF0000;
+padding:6px 12px  ;
+color: white;
+border-radius:3px  ;
+display:flex ;
+float:right;
+
+}
+
+.main{
+color:white ;
+text-align: center;
+align-self: center;
+display:inline;
+
+
+
+}
+h1{text-align:center;
+padding-left:250px ;
+padding-top:200px  ;
+font-family: "Lato", sans-serif;
+font-style: normal;
+font-size:70px ;
+
+}
+h2{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+font-style: normal;
+letter-spacing:1px ;
+text-transform: capitalize;
+
+}
+h3{
+    text-align: center;
+    font-family:"Lato", sans-serif ;
+    text-transform: capitalize;
+
+}
+.email{
+    padding:10px 80px ;
+    background-color:transparent ;
+    color:white ;
+    display: flex;
+    margin-left:350px  ;
+
+
+
+
+
+
+    
+    
+}
+.btn{padding:8px  50px ;
+display: flex;
+font-size:xx-large;}
+.box1{
+    background-color: black;
+    color:white ;
+    text-align:left ;
+    padding-top:200px  ;
+    padding-left:200px  ;
+    font-size:48px  ;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    border-top:1px solid white;
+    border-bottom:1px solid white ;
+}
