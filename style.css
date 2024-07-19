@@ -1,6 +1,8 @@
 
 
 
+
+
 .container{
     display:relative ;
     
@@ -16,13 +18,14 @@
 .header{
   background-image:url(background.jpg) ;
   height:100vh ;
+  opacity:4 ;
 
 
   
   
   
 }
-img {
+.logo {
 width: 200px;
 height: 50px;
 padding: 24px 48px;
@@ -42,7 +45,7 @@ float: right;
 }
 button {
 background-color:#FF0000;
-padding:6px 12px  ;
+padding:4px 12px  ;
 color: white;
 border-radius:3px  ;
 display:flex ;
@@ -86,28 +89,110 @@ h3{
     background-color:transparent ;
     color:white ;
     display: flex;
-    margin-left:350px  ;
+    margin-left:300px  ;
+    gap:10px ;}
 
 
 
 
 
 
-    
-    
-}
+
 .btn{padding:8px  50px ;
 display: flex;
 font-size:xx-large;}
-.box1{
+.box{
     background-color: black;
     color:white ;
     text-align:left ;
     padding-top:200px  ;
-    padding-left:200px  ;
+    padding-left:198px  ;
     font-size:48px  ;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-weight: bold;
+   
     border-top:1px solid white;
     border-bottom:1px solid white ;
+    height:50vh ;
 }
+.one{margin:16px  ;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+}
+.two{font-size:24px;
+align-self:center;
+text-align: left;
+font-weight: 100;
+
+}
+.three{margin:18px  ;
+    text-align: right;
+    font-weight: 900;
+    padding-right:400px ;
+}
+
+.four{font-size:24px;
+    font-weight: 100;
+    padding-right:400px ;
+}
+
+
+.box{
+    display:inline-flex;
+    width:89vw ;
+    
+   
+    
+}
+.tv{
+    margin-top:1px ;
+    display:flex;
+    float: right;
+    position: relative;
+    width:400px ;
+    height:300px ;
+    z-index:1; 
+    
+}
+.video1{
+
+    /* margin-left: -488px; */
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+}
+.box1{
+    background-color: black;
+    position: relative;
+    color:white ;
+    text-align:right ;
+    padding-top:220px  ;
+    font-size:48px  ;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-top:1px solid white;
+    border-bottom:1px solid white ;
+    height:50vh ;
+    
+
+}
+.st{
+margin-top:-18%;
+margin-left:14% ;
+    float: left;
+    height:100px ;
+    width: 100px ;
+    position: absolute;
+    }
+
+   .box2{
+        background-color: black;
+        color:white ;
+        text-align:left ;
+        padding-top:200px  ;
+        padding-left:200px  ;
+        font-size:48px  ;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-weight:900;
+        border-top:1px solid white;
+        border-bottom:1px solid white ;
+        height:50vh ;}
